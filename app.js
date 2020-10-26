@@ -10,7 +10,7 @@ http.createServer((req, res) => {
             res.end("Você está na página home!");
             break;
         case "/contato":
-            res.end("Você está na página contato!")
+            res.end("Você está na página contato!");
             break;
         default:
             res.end("Página não encontrada!");
